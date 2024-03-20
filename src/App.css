@@ -40,3 +40,57 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Reset básico para remover margens e paddings padrões */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 20px;
+}
+
+.App-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+/* Adiciona um pouco de estilo ao carregar e aos erros */
+p {
+  margin-top: 20px;
+}
+
+/* Estilos para os resultados da busca */
+h2 {
+  color: #007bff;
+}
+
+div {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
